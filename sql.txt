@@ -1,0 +1,31 @@
+INSERT INTO Family_members values (1, Shirley Vasukula, F, 28, Toronto, Canada)
+INSERT INTO Family_members values (2, 'Pranith Munnangi' , 'M', 31, 'North York', 'Canada');
+INSERT INTO Family_members values (3, 'Venkat Vasukula' , 'M', 55, 'Borabanda', 'India');
+INSERT INTO Family_members values (4, 'Assuntha Vasukula' , 'F', 53, 'Borabanda', 'India');
+INSERT INTO Family_members values (5, 'Veronica Vasukula' , 'F', 27, 'Chennai', 'India');
+INSERT INTO Family_members values (6, 'Divya Abhishakam' , 'F', 32, 'Boraband', 'India');
+INSERT INTO Family_members values (7, 'Kevin Francies', 'M', 21, 'Suchitra', 'India');
+INSERT INTO Family_members values (8, 'Jessu Francies ', 'F', 53, 'Old city', 'India');
+INSERT INTO Family_members values (9, 'Sanjay Francies', 'M', 56, 'Suchitra', 'India');
+INSERT INTO Family_members values (10, 'Roslien Francies', 'F', 55, 'Suchitra', 'India');
+INSERT INTO Family_members values (11, 'Joy Francies', 'M', 27, 'Brampton', 'Canada');
+INSERT INTO Family_members values (12, 'Santhosh Francies', 'M', 60, 'Borabanda', 'India');
+INSERT INTO Family_members values (13, 'Valdimer Vaz', 'M', 33, 'Toronto', 'Canada');
+INSERT INTO Family_members values (14, 'Silo Vaz', 'F', 61, 'Mothinagar', 'India');
+INSERT INTO Family_members values (15, 'Sian Vaz', 'F', 35, 'Sanathnagar', 'India');
+INSERT INTO Family_members values (16, 'Dennis Roy', 'M', 36, 'Winsor', 'Canada');
+INSERT INTO Family_members values (17, 'Urmila Francies' , 'F', 61, 'Boraband', 'India');
+INSERT INTO Family_members values (18, 'Chris Loods' , 'M', 19, 'Abu Dabi', 'Dubai');
+INSERT INTO Family_members values (19, 'Cyrus Loods', 'M', 22, 'Old city', 'India');
+INSERT INTO Family_members values (20, 'Ratna Kumari' , 'F', 28, 'Bondalgudda', 'India');
+
+
+CREATE TABLE New_Family_Members (
+    Id INT PRIMARY KEY,
+    Family_Name VARCHAR(25),
+    Gender CHAR(1),
+    Age INT,
+    New_Column INt, 
+    city VARCHAR(15),
+    country VARCHAR(15)
+);
